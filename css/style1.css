@@ -1,0 +1,55 @@
+.container{
+    width: 960px;
+}
+header{
+    height: 280px;
+    background-image: url("../images/bg.png");
+    position: relative;
+}
+header h1{
+    font-size: 3em;
+    color: #ffc;
+    right: 20px;
+    bottom: 70px;
+    position: absolute;
+}
+header h2{
+    font-size: 2em;
+    color: #ff0;
+    right: 20px;
+    bottom: 30px;
+    position: absolute;
+}
+.navi{
+    width: 960px;
+    background:  #271717;
+    height: 150px;
+    margin-top: -15px;
+    /* 음수값으로 배정해 밀착시킨다 */
+}
+.navi ul{
+    list-style: none;
+}
+.navi a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 5px 5px 35px;
+    display: block;
+    /* a태그의 각각의 패딩이 적용됨 */
+}
+.navi a:hover{
+    color: #fc0;
+}
+.content{
+    width: 720px;
+    padding-left: 10px;
+    float: left;
+}
+footer{
+    clear: left;
+    /* both도 ㄱㅊ */
+    background-color: #030;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
